@@ -10,30 +10,30 @@
 
 
 moult_color <- function(i,data){
-  C1<-C2<-C3<-C4<-C5<-C6<-C7<-C8 <- NULL
+
   if(data[i,2]==0){
-    feather = C1
+    feather = "white"
   }
   if (data[i,2]>=0.100001 & data[i,2]<=0.25){
-    feather = C4
+    feather = "gray90"
   }
   if (data[i,2]>=0.00001 & data[i,2]<=0.05){
-    feather = C2
+    feather = "gray80"
     }
   if (data[i,2]>=0.0500001 & data[i,2]<=0.10){
-  feather = C3
+  feather = "lightyellow3"
     }
   if (data[i,2]>=0.251 & data[i,2]<=0.50){
-    feather = C5
+    feather = "gray57"
     }
   if (data[i,2]>=0.5000001 & data[i,2]<=0.75){
-    feather = C6
+    feather = "gray37"
     }
   if (data[i,2]>=0.7500001 & data[i,2]<=0.90){
-    feather = C7
+    feather = "gray20"
     }
   if (data[i,2]>=0.9000001){
-    feather = C8
+    feather = "gray0"
    }
 
   feather <<- feather

@@ -11,7 +11,7 @@
 #' @export
 #'
 primarie_10 <-function(i,data){
-  feather <- NULL
+  #feather <- NULL
   par(mar = c(0,0,0,0) + 0.1)
   plot(1,1, col = "white", xlab = "", ylab = ""
        ,xlim=c(0,35), ylim=c(6,50),axes= FALSE)

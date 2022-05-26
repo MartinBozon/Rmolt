@@ -58,14 +58,14 @@
 
 
 #' @examples
-#' For an only 10 primaries bird:
+#'
 #' Rmolt(df,"10_0")
 #'
-#' For a 10 primaries bird:
+#'
 #' Rmolt(fcf,10)
 #'
 #'
-#' For a 9 primaries bird:
+#'
 #' Rmolt(dcb,9)
 #'
 #'
@@ -76,7 +76,7 @@
 #' @export
 
 Rmolt <- function(data,primaries) {
-  feather <- NULL
+  #feather <- NULL
   primaries <<- primaries
 
   if (primaries == 10){  #9 primaries
