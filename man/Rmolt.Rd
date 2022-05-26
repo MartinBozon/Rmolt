@@ -51,14 +51,14 @@ dcb, fcf and df are examples data table include in this package
 Rmolt
 }
 \examples{
-For an only 10 primaries bird:
+
 Rmolt(df,"10_0")
 
-For a 10 primaries bird:
+
 Rmolt(fcf,10)
 
 
-For a 9 primaries bird:
+
 Rmolt(dcb,9)
 
 
